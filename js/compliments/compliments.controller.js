@@ -1,8 +1,8 @@
 "use strict"
 
 (function(){
-    var var app = angular.module("compliments");
-    app.controller("complimentsControllers", Compliments_Controller);
+    var app = angular.module("compliments");
+    app.controller("complimentsController", ComplimentsController);
 
     function ComplimentsController(){
       var vmv = this;
